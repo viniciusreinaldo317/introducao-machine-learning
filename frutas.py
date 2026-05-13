@@ -52,3 +52,6 @@ probabilidade = arvore.predict_proba([[0,1,0,1]])[0]
 pd.Series(probabilidade, index= arvore.classes_)
 
 print(probabilidade)
+
+# ➡️ você não sabe se ele realmente aprendeu padrões ou apenas memorizou os exemplos.
+# Isso se chama overfitting. o codigo acima.
